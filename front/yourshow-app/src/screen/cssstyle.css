@@ -1,0 +1,207 @@
+.CenterForm {
+  margin-top: 150px;
+  margin-left: 550px;
+}
+
+.CenterTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 180px;
+    color: white;
+}
+
+.FormWidth {
+    width: 100%;
+}
+
+.TextStyle {
+  font-family: cursive;
+}
+
+.NavTextSize {
+  margin-top: 0;
+	font-size: 20px;
+}
+
+.LoginText {
+  position: relative;
+  text-align: center;
+}
+
+.FormText {
+	color: white;
+}
+
+.VerticalCenter {
+  margin:0 auto;
+    display:block;
+  top: 20%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.Scroll {  
+    padding: 4px;    
+    width: 300px;  
+    overflow-x: scroll;  
+    white-space: nowrap;  
+}  
+
+.Movies {
+  -ms-transform: translateY(75%);
+  transform: translateY(75%);
+}
+
+.MoviesRent {
+  -ms-transform: translateY(30%);
+  transform: translateY(30%);
+}
+
+.MoviesRow {
+    max-height: 300px;
+    margin-right: 20px;
+    transition: transform 450ms;
+}
+
+.MoviesRow:hover {
+  transform: scale(1.08);
+}
+
+.MovieFlex {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.MovieFlex::-webkit-scrollbar {
+  display: none;
+}
+
+.MoviesTextSize {
+  font-size: 17px;
+  position: relative;
+  text-align: center;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.MovieDetailsX {
+  -ms-transform: translateX(20%);
+  transform: translateX(20%);
+}
+
+.MovieDetailsX2 {
+  -ms-transform: translateX(25%);
+  transform: translateX(25%);
+}
+
+.MovieDetailsY {
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.PosterSize {
+  max-height: 325px;
+}
+
+.UserDetailsX {
+  -ms-transform: translateX(10%);
+  transform: translateX(10%);
+}
+
+.UserDetailsX1 {
+  -ms-transform: translateX(35%);
+  transform: translateX(35%);
+}
+
+.UserDetailsY {
+  -ms-transform: translateY(60%);
+  transform: translateY(60%);
+}
+
+.UserDetailsY1 {
+  -ms-transform: translateY(20%);
+  transform: translateY(20%);
+}
+
+.ProfileTextSize {
+  font-size: 30px;
+}
+
+.ProfileFlex {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.ProfileFlex::-webkit-scrollbar {
+  display: none;
+}
+
+.ProfileSize {
+  max-height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.ProfileSize:hover {
+  transform: scale(1.08);
+}
+
+.ProfilePosterX {
+  -ms-transform: translateX(40%);
+  transform: translateX(40%);
+}
+
+.AdminDetailsY {
+  -ms-transform: translateY(150%);
+  transform: translateY(150%);
+}
+
+.HomeSize {
+  font-size: 40px;
+}
+
+.NameX {
+  -ms-transform: translateX(45%);
+  transform: translateX(45%);
+}
+
+.HomeDetailsY {
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.ProfileText {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Users {
+  -ms-transform: translateY(-70%);
+  transform: translateY(-70%);
+}
+
+.AdminFlex {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.AdminRowX {
+    max-height: 300px;
+    margin-right: 20px;
+    transition: transform 450ms;
+}
+
+.AdminRow {
+    max-height: 300px;
+    margin-left: 20px;
+    transition: transform 450ms;
+}
